@@ -14,7 +14,7 @@ describe "fizzbuzz" do
   end
 
   it "returns number when not divisible by 3 or 5" do
-    n = rand(1..100)
+    n = (1..100)
     expect(fizzbuzz(n)).to eq n
   end
 end
