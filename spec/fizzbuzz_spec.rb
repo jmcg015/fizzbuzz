@@ -14,7 +14,6 @@ describe "fizzbuzz" do
   end
 
   it "returns number when not divisible by 3 or 5" do
-    n = (1..100)
-    expect(fizzbuzz(n)).to eq n
+    expect(fizzbuzz(4)).to eq 4
   end
 end
