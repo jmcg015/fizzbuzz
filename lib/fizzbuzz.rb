@@ -2,11 +2,12 @@ def fizzbuzz(n)
   fizz = (n % 3 == 0)
   buzz = (n % 5 == 0)
 
-  if fizz && buzz
+  case
+  when fizz && buzz
     "FizzBuzz"
-  elsif buzz
+  when buzz
     "buzz"
-  elsif fizz
+  when fizz
     "fizz"
   else
     n
